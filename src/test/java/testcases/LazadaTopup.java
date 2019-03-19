@@ -60,7 +60,7 @@ public class LazadaTopup {
         List<WebElement> digitalGoods = laz_hpc_channel_top_text.findElements(By.id("laz_hpc_channel_top_text"));
         digitalGoods.get(2).click();
 
-        By webView = By.id("lazada_windvane_webview");
+        By webView = By.id("lazada_content");
         By title = By.id("lazada_windvane_webview");
         WebDriverWait wait = new WebDriverWait(driver,300);
         driver.findElement(title).getText();
@@ -68,12 +68,21 @@ public class LazadaTopup {
         System.out.println("Total No of Context Found Before reaching WebView = "+ availableContexts1.size());
         System.out.println("Context Name is "+ availableContexts1);
 
+        wait.until(ExpectedConditions.visibilityOfElementLocated(webView));
+        Set<String> availableContexts = driver.getContextHandles();
+        System.out.println("Total No of Context Found After we reach to WebView = "+ availableContexts.size());
+        for(String context : availableContexts) {
+            if (context.contains("WEBVIEW")) {
+                System.out.println("Context Name is " + context);
+                driver.context(context);
+                break;
+            }
+        }
         Thread.sleep(30000);
-        driver.switchTo().window("WEBVIEW");
         WebElement phoneTopup1 = driver.findElement(By.cssSelector(".lzd-act-icon-navigation .lzd-act-icon-navigation-list .lzd-act-icon-navigation-item"));
         phoneTopup1.click();
 
-       
+
     }
 
     @AfterTest(alwaysRun = true)

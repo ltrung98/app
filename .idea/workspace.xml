@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f70fed8-3ba9-4bd4-9288-67c13e8926ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/AmzTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/LazadaTopup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testcases/WaitForElementPresent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/LazadaTopup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/LazadaTopup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testcases/LazadaTopup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testcases/LazadaTopup.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/testcases/LazadaTopup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+            <state relative-caret-position="290">
+              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -197,7 +198,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552970202655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552985196374" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -311,9 +312,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LazadaTopup - 2019.03.18 at 16h 18m 13s.xml">
-      <configuration name="LazadaTopup" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LazadaTopup - 2019.03.18 at 17h 55m 33s.xml">
       <configuration name="LazadaTopup" configurationId="TestNG" />
     </history-entry>
@@ -339,6 +337,9 @@
       <configuration name="LazadaTopup" configurationId="TestNG" />
     </history-entry>
     <history-entry file="LazadaTopup - 2019.03.19 at 10h 54m 31s.xml">
+      <configuration name="LazadaTopup" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LazadaTopup - 2019.03.19 at 15h 42m 09s.xml">
       <configuration name="LazadaTopup" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -548,8 +549,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testcases/LazadaTopup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="75" column="7" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
+        <state relative-caret-position="290">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
