@@ -79,7 +79,7 @@ public class LazadaTopup {
             }
         }
         Thread.sleep(30000);
-        WebElement phoneTopup1 = driver.findElement(By.cssSelector(".lzd-act-icon-navigation .lzd-act-icon-navigation-list .lzd-act-icon-navigation-item"));
+        WebElement phoneTopup1 = driver.findElement(By.cssSelector(".lzd-act-icon-navigation > ul > li"));
         phoneTopup1.click();
 
 
